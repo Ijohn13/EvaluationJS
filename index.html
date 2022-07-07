@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- CSS only -->
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
+        crossorigin="anonymous"
+    >    
+    <link rel="stylesheet" href="style.css">
+    <title>Jeux de Dé</title>
+</head>
+<body>
+    <main id="background">
+        <span id="newGame">
+            <i class="bi bi-plus-circle"></i>
+            NEW GAME
+        </span>
+        <div id="container">
+            <div id="containerTitle">
+                <h2 class="title">PLAYER 1</h2>
+                <h2 class="title">PLAYER 2</h2>
+            </div>
+            <div id="containerCountersDe">
+                <div class="counter"><p>0</p></div>
+                <div id="de"></div>
+                <div class="counter"><p>0</p></div>
+            </div>
+            <div id="containerPoints">
+                <div class="containerPoint">
+                    <p class="current">CURRENT</p>
+                    <p class="point">0</p>
+                </div>
+                <div id="containerOptions">
+                    <span id="rollDice">
+                        <i class="bi bi-arrow-counterclockwise"></i>
+                        ROLL DICE
+                    </span>
+                    <span id="hold">
+                        <i class="bi bi-arrow-up-square"></i>
+                        HOLD
+                    </span>
+                </div>
+                <div class="containerPoint">
+                    <p class="current">CURRENT</p>
+                    <p class="point">0</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" 
+        crossorigin="anonymous"
+    >
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
